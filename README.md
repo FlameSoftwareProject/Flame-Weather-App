@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-On device, updates are surfaced via **About → Check for Updates** (uses the GitHub Releases API; no external service involved). If no release exists yet, the first one is on the way.
+On device, updates are surfaced via **About → Check for Updates** (uses the GitHub Releases API; no external service involved).
 
 Prefer to try weather in the browser first? The official **[web version](https://flameproject.app/weather)** is a full-featured, zero-install companion.
 
