@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-在应用内可通过 **关于 → 检查更新** 获取更新提醒(走 GitHub Releases API,不经任何外部服务)。若还没有发布版本,第一个版本正在路上。
+在应用内可通过 **关于 → 检查更新** 获取更新提醒(走 GitHub Releases API,不经任何外部服务)。
 
 想先在浏览器里体验?官方 **[网页版](https://flameproject.app/weather)** 功能完整、免安装。
 
