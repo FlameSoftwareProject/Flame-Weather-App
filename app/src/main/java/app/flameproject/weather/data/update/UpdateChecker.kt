@@ -3,6 +3,7 @@ package app.flameproject.weather.data.update
 import app.flameproject.weather.data.remote.NetworkClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import okhttp3.Request
 import java.io.IOException
@@ -54,4 +55,7 @@ object UpdateChecker {
 }
 
 @Serializable
-private data class GitHubRelease(val tagName: String, val htmlUrl: String)
+private data class GitHubRelease(
+    @SerialName("tag_name") val tagName: String,
+    @SerialName("html_url") val htmlUrl: String,
+)
