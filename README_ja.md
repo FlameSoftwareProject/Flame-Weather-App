@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-アプリ内では **このアプリについて → 更新を確認** からアップデートを確認できます(GitHub Releases API を直接使用し、外部サービスは介しません)。リリースがまだない場合は、最初のバージョンを準備中です。
+アプリ内では **このアプリについて → 更新を確認** からアップデートを確認できます(GitHub Releases API を直接使用し、外部サービスは介しません)。
 
 まずブラウザで試したい方へ — 公式 **[Web 版](https://flameproject.app/weather)** はインストール不要で全機能を利用できます。
 
