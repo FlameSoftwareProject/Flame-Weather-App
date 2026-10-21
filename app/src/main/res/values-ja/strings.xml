@@ -1,0 +1,196 @@
+﻿<resources>
+    <!-- Application branding -->
+    <string name="app_name">焔 天気</string>
+    <string name="app_desc">天気予報とデータサービス。</string>
+
+    <!-- Toolbar and navigation -->
+    <string name="search_hint">都市を検索</string>
+    <string name="locate_button">現在地</string>
+    <string name="my_location">現在地</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="nav_weather">天気</string>
+    <string name="nav_ai">AI スタジオ</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Weather metric labels -->
+    <string name="device_time">端末時間</string>
+    <string name="local_time">現地時間</string>
+    <string name="humidity">湿度</string>
+    <string name="wind">風速</string>
+    <string name="pressure">気圧</string>
+    <string name="precipitation">降水量</string>
+    <string name="updated_at">%1$s に更新</string>
+    <string name="export_screenshot">スクリーンショットを保存</string>
+
+    <!-- Forecast titles -->
+    <string name="forecast_hourly">24時間予報</string>
+    <string name="forecast_daily">7日間予報</string>
+    <string name="today">今日</string>
+
+    <!-- Status and feedback -->
+    <string name="status_loading">天気情報を読み込み中…</string>
+    <string name="status_locating">現在地を取得中…</string>
+    <string name="status_fetch_failed">天気データを取得できませんでした。再試行してください。</string>
+    <string name="status_location_denied">位置情報の権限が拒否されました。</string>
+    <string name="status_empty_search">一致する都市が見つかりません。</string>
+    <string name="retry">再試行</string>
+    <string name="status_no_weather_info">現在天気情報を取得できません。インターネット接続または位置情報の権限を確認して、もう一度お試しください。</string>
+
+    <!-- Theme and appearance settings -->
+    <string name="settings_appearance">外観と操作感</string>
+    <string name="settings_theme_mode">デザインシステム</string>
+    <string name="settings_dark_mode">カラーモード</string>
+    <string name="mode_system">自動</string>
+    <string name="mode_light">ライト</string>
+    <string name="mode_dark">ダーク</string>
+    <string name="settings_pure_black">純黒モード (AMOLED Black)</string>
+    <string name="settings_palette">パレット</string>
+    <string name="color_dynamic">動的カラー (Material You)</string>
+    <string name="color_style_soft">ソフト</string>
+    <string name="color_style_vivid">鮮やか</string>
+    <string name="palette_lavender">ラベンダー</string>
+    <string name="palette_mint">ミント</string>
+    <string name="palette_matcha">抹茶</string>
+    <string name="palette_marigold">マリーゴールド</string>
+    <string name="palette_rose">ローズ</string>
+    <string name="palette_custom">カスタム</string>
+
+    <!-- Language settings -->
+    <string name="settings_language">言語</string>
+    <string name="lang_system">自動</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh_hans">简体中文</string>
+    <string name="lang_zh_hant">繁體中文</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_ko">한국어</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_es">Español</string>
+
+    <!-- API endpoints configuration -->
+    <string name="settings_endpoints">API エンドポイント</string>
+    <string name="endpoint_weather">天気 API</string>
+    <string name="endpoint_map_tile">地図タイルのURL</string>
+    <string name="endpoint_reset">デフォルトに戻す</string>
+    <string name="settings_endpoints_expand">変更を展開</string>
+    <string name="settings_endpoints_collapse">折りたたむ</string>
+
+    <!-- Interactive map -->
+    <string name="map_title">気象マップ</string>
+    <string name="map_tap_hint">タップして全画面表示</string>
+    <string name="map_close">地図を閉じる</string>
+
+    <!-- Acknowledgements and about -->
+    <string name="settings_about">アプリについて</string>
+    <string name="credits_gemini">特別な感謝：Google Gemini</string>
+    <string name="credits_ai_support">コード提供につき Google Gemini、GLM、MiniMax に特別感謝します。</string>
+    <string name="credits_github">オープンソース GitHub</string>
+    <string name="credits_websites">公式サイト</string>
+    <string name="check_updates">更新を確認</string>
+    <string name="update_available">新バージョン %1$s があります</string>
+    <string name="update_latest">最新版です</string>
+    <string name="update_none">リリースはまだ公開されていません</string>
+    <string name="update_failed">確認に失敗しました。後でもう一度お試しください</string>
+    <string name="about_privacy_statement">このアプリのコードは完全にオープンソースです。天気分析に必要な位置情報のみを取得し、保持しないことを保証します。ご希望に応じてカスタム天気APIを設定することもできます。</string>
+    <string name="about_datasource_statement">デフォルトデータソース: MET Norway [weather.flameapis.com(api.met.no)]</string>
+    <string name="link_main_site">メインサイト: flameproject.net</string>
+    <string name="link_web_app">Web版天気アプリ: flameproject.app/weather</string>
+    <string name="link_short_url">短縮リンク: flpr.dev/wt</string>
+
+    <!-- AI feature labels -->
+    <string name="ai_section_title">AI 気象分析</string>
+    <string name="ai_run_analysis">分析する</string>
+    <string name="ai_running">分析中…</string>
+    <string name="ai_disclaimer">AIが生成した内容です。参考としてご利用ください。</string>
+    <string name="ai_flame_service_notice">Flame 公式 AI サービスは Web 版 (flpr.dev/wt) で利用可能です。</string>
+    <string name="ai_privacy_guarantee">ご安心ください: このモードでは、リクエストは選択したプロバイダーの公式エンドポイントに直接送信されます。APIキーを収集することは決してありません。</string>
+    <string name="ai_base_url_hint">カスタムの場合は必須、その他は公式URLを表示</string>
+    <string name="ai_model_hint">カスタムの場合は必須、その他はデフォルトを使用</string>
+    <string name="ai_test_connection">接続テスト</string>
+
+    <!-- Dialog and common controls -->
+    <string name="label_location_format">地域: %1$s</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_apply">適用</string>
+    <string name="btn_close">閉じる</string>
+    <string name="btn_confirm">確定</string>
+    <string name="dialog_custom_color">カスタムパレットシード</string>
+
+    <!-- 3 Core API Category Titles -->
+    <string name="endpoint_weather_title">天気 API</string>
+    <string name="endpoint_geocoding_title">ジオコーディング API</string>
+    <string name="endpoint_map_tile_title">地図タイル API</string>
+    <string name="endpoint_fallback_notice">カスタム設定を有効にすると、既定のフォールバック機構は無効になります。</string>
+
+    <string name="color_red">赤：</string>
+    <string name="color_green">緑：</string>
+    <string name="color_blue">青：</string>
+    <string name="url_template_hint">URL（{key} に対応）</string>
+    <string name="url_zxy_hint">URL（{z}/{x}/{y}）</string>
+    <string name="default_geocoding_cascade">既定：段階的なフォールバック</string>
+    <string name="default_map_cascade">既定：Google -> OSM -> 高徳</string>
+    <string name="preset_flame_default">Flame 既定</string>
+    <string name="preset_met_norway">MET Norway</string>
+    <string name="preset_open_meteo">Open-Meteo</string>
+    <string name="preset_nominatim">Nominatim OSM</string>
+    <string name="preset_photon">Photon</string>
+    <string name="preset_google_sat">Google 衛星</string>
+    <string name="preset_osm">OSM</string>
+    <string name="preset_gaode_sat">高徳衛星</string>
+    <string name="preset_cartodb">CartoDB</string>
+    <string name="map_data">地図データ</string>
+    <string name="custom_api">カスタム API</string>
+    <string name="btn_save_apply">保存して適用</string>
+    <string name="provider_google_maps">Google マップ</string>
+    <string name="provider_osm">OpenStreetMap</string>
+    <string name="provider_gaode">高徳地図 (AutoNavi)</string>
+    <string name="label_user_agent">User-Agent</string>
+    <string name="label_api_key">API キー</string>
+    <string name="label_api_key_replace">API キー（{key} を置換）</string>
+
+    <!-- AI provider and result labels -->
+    <string name="ai_label_provider">プロバイダー</string>
+    <string name="ai_label_base_url">ベース URL</string>
+    <string name="ai_label_model">モデル</string>
+    <string name="ai_test_failed">失敗</string>
+    <string name="ai_test_latency">%1$d ms</string>
+    <string name="ai_error_title">分析に失敗しました</string>
+    <string name="ai_error_missing_api_key">API キーがありません</string>
+    <string name="ai_error_connection_failed">接続に失敗しました</string>
+    <string name="ai_error_analysis_failed">分析リクエストに失敗しました</string>
+    <string name="ai_error_unparseable">モデルが読み取れない回答を返しました。もう一度お試しください。</string>
+    <string name="ai_streaming_status">AI が生成しています…</string>
+    <string name="ai_retrying_status">接続に失敗しました。再試行しています…</string>
+
+    <string name="ai_advice_clothing">服装</string>
+    <string name="ai_advice_sun">日差しと暖かさ</string>
+    <string name="ai_advice_outdoor">屋外活動</string>
+    <string name="ai_advice_car_wash">洗車</string>
+    <string name="ai_advice_umbrella">傘</string>
+
+    <string name="ai_provider_gemini">Gemini</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_anthropic">Anthropic</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_zhipu">Zhipu AI</string>
+    <string name="ai_provider_qwen">Qwen</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_custom">カスタム</string>
+
+    <string name="action_export_card">ショットの書き出し</string>
+    <string name="card_updated">%1$s 更新</string>
+    <string name="card_scan_hint">より詳しい最新天気は QR コードから</string>
+    <string name="card_copyright">© 2026 Flame Software Project</string>
+    <string name="export_toast_failed">書き出しに失敗しました。もう一度お試しください</string>
+    <string name="wx_clear_day">晴れ</string>
+    <string name="wx_clear_night">晴れ夜</string>
+    <string name="wx_partly_day">時々曇</string>
+    <string name="wx_partly_night">夜は時々曇</string>
+    <string name="wx_cloudy">曇り</string>
+    <string name="wx_rain">雨</string>
+    <string name="wx_thunder">雷雨</string>
+    <string name="wx_snow">雪</string>
+    <string name="wx_sleet">みぞれ</string>
+    <string name="wx_hail">雹</string>
+    <string name="wx_fog">霧</string>
+</resources>

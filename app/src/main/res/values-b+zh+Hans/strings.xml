@@ -1,0 +1,196 @@
+﻿<resources>
+    <!-- Application branding -->
+    <string name="app_name">焰火天气</string>
+    <string name="app_desc">天气预报与数据服务。</string>
+
+    <!-- Toolbar and navigation -->
+    <string name="search_hint">搜索城市</string>
+    <string name="locate_button">定位</string>
+    <string name="my_location">我的位置</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="nav_weather">天气</string>
+    <string name="nav_ai">AI 顾问</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Weather metric labels -->
+    <string name="device_time">本机时间</string>
+    <string name="local_time">当地时间</string>
+    <string name="humidity">湿度</string>
+    <string name="wind">风速</string>
+    <string name="pressure">气压</string>
+    <string name="precipitation">降水量</string>
+    <string name="updated_at">更新于 %1$s</string>
+    <string name="export_screenshot">导出截图</string>
+
+    <!-- Forecast titles -->
+    <string name="forecast_hourly">24 小时预报</string>
+    <string name="forecast_daily">7 天预报</string>
+    <string name="today">今天</string>
+
+    <!-- Status and feedback -->
+    <string name="status_loading">正在加载天气…</string>
+    <string name="status_locating">正在定位…</string>
+    <string name="status_fetch_failed">无法获取天气数据，请重试。</string>
+    <string name="status_location_denied">定位权限已被拒绝。</string>
+    <string name="status_empty_search">未找到匹配城市。</string>
+    <string name="retry">重试</string>
+    <string name="status_no_weather_info">目前无法获取任何天气信息，请检查您的网络连接或确认定位权限是否开启后重试。</string>
+
+    <!-- Theme and appearance settings -->
+    <string name="settings_appearance">外观与体验</string>
+    <string name="settings_theme_mode">设计系统</string>
+    <string name="settings_dark_mode">色彩模式</string>
+    <string name="mode_system">跟随系统</string>
+    <string name="mode_light">浅色</string>
+    <string name="mode_dark">深色</string>
+    <string name="settings_pure_black">纯黑模式 (AMOLED Black)</string>
+    <string name="settings_palette">调色盘</string>
+    <string name="color_dynamic">跟随系统 (Material You)</string>
+    <string name="color_style_soft">柔和</string>
+    <string name="color_style_vivid">鲜明</string>
+    <string name="palette_lavender">薰衣草紫</string>
+    <string name="palette_mint">薄荷青</string>
+    <string name="palette_matcha">抹茶绿</string>
+    <string name="palette_marigold">金盏黄</string>
+    <string name="palette_rose">玫瑰粉</string>
+    <string name="palette_custom">自定义</string>
+
+    <!-- Language settings -->
+    <string name="settings_language">应用语言</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh_hans">简体中文</string>
+    <string name="lang_zh_hant">繁體中文</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_ko">한국어</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_es">Español</string>
+
+    <!-- API endpoints configuration -->
+    <string name="settings_endpoints">自定义接口</string>
+    <string name="endpoint_weather">天气服务节点</string>
+    <string name="endpoint_map_tile">地图瓦片模板</string>
+    <string name="endpoint_reset">恢复默认端点</string>
+    <string name="settings_endpoints_expand">展开修改</string>
+    <string name="settings_endpoints_collapse">收起</string>
+
+    <!-- Interactive map -->
+    <string name="map_title">卫星气象地图</string>
+    <string name="map_tap_hint">点击全屏沉浸浏览</string>
+    <string name="map_close">退出地图</string>
+
+    <!-- Acknowledgements and about -->
+    <string name="settings_about">关于与鸣谢</string>
+    <string name="credits_gemini">特别致谢：Google Gemini</string>
+    <string name="credits_ai_support">特别鸣谢 Google Gemini、GLM、MiniMax 提供代码支持。</string>
+    <string name="credits_github">官方开源代码库</string>
+    <string name="credits_websites">官方网站矩阵</string>
+    <string name="check_updates">检查更新</string>
+    <string name="update_available">发现新版本 %1$s</string>
+    <string name="update_latest">已是最新版本</string>
+    <string name="update_none">仓库尚未发布版本</string>
+    <string name="update_failed">检查失败，请稍后重试</string>
+    <string name="about_privacy_statement">该应用代码完全开源，我们只收集用于天气分析的必要位置信息并保证不会留存，如果您想，您也可以自定义天气API。</string>
+    <string name="about_datasource_statement">默认数据源：MET Norway [weather.flameapis.com(api.met.no)]</string>
+    <string name="link_main_site">主站：flameproject.net</string>
+    <string name="link_web_app">网页端天气应用：flameproject.app/weather</string>
+    <string name="link_short_url">短链接：flpr.dev/wt</string>
+
+    <!-- AI feature labels -->
+    <string name="ai_section_title">AI 气象分析</string>
+    <string name="ai_run_analysis">生成分析</string>
+    <string name="ai_running">分析中…</string>
+    <string name="ai_disclaimer">AI 生成内容，仅供参考。</string>
+    <string name="ai_flame_service_notice">Flame 官方 AI 托管服务请访问网页端 (flpr.dev/wt)</string>
+    <string name="ai_privacy_guarantee">请放心：在此模式下，您的请求将直接发送到您选择的提供商官方节点。我们承诺绝不收集您的 API 密钥。</string>
+    <string name="ai_base_url_hint">自定义必填；其他提供商显示官方节点</string>
+    <string name="ai_model_hint">自定义必填；其他提供商使用默认值</string>
+    <string name="ai_test_connection">测试连接</string>
+
+    <!-- Dialog and common controls -->
+    <string name="label_location_format">地区：%1$s</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_apply">应用</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_confirm">确定</string>
+    <string name="dialog_custom_color">自定义莫奈种子色</string>
+
+    <!-- 3 Core API Category Titles -->
+    <string name="endpoint_weather_title">天气服务接口</string>
+    <string name="endpoint_geocoding_title">地理编码接口</string>
+    <string name="endpoint_map_tile_title">地图瓦片接口</string>
+    <string name="endpoint_fallback_notice">配置自定义端点后将停用默认容灾降级机制。</string>
+
+    <string name="color_red">红：</string>
+    <string name="color_green">绿：</string>
+    <string name="color_blue">蓝：</string>
+    <string name="url_template_hint">URL (支持 {key})</string>
+    <string name="url_zxy_hint">URL ({z}/{x}/{y})</string>
+    <string name="default_geocoding_cascade">默认：多级容灾</string>
+    <string name="default_map_cascade">默认：Google -> OSM -> 高德</string>
+    <string name="preset_flame_default">Flame 默认</string>
+    <string name="preset_met_norway">MET Norway</string>
+    <string name="preset_open_meteo">Open-Meteo</string>
+    <string name="preset_nominatim">Nominatim OSM</string>
+    <string name="preset_photon">Photon</string>
+    <string name="preset_google_sat">Google 卫星</string>
+    <string name="preset_osm">OSM</string>
+    <string name="preset_gaode_sat">高德卫星</string>
+    <string name="preset_cartodb">CartoDB</string>
+    <string name="map_data">地图数据</string>
+    <string name="custom_api">自定义 API</string>
+    <string name="btn_save_apply">保存并应用</string>
+    <string name="provider_google_maps">Google Maps</string>
+    <string name="provider_osm">OpenStreetMap</string>
+    <string name="provider_gaode">高德地图 (AutoNavi)</string>
+    <string name="label_user_agent">User-Agent</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_api_key_replace">API Key (替换 {key})</string>
+
+    <!-- AI provider and result labels -->
+    <string name="ai_label_provider">服务商</string>
+    <string name="ai_label_base_url">接口地址</string>
+    <string name="ai_label_model">模型</string>
+    <string name="ai_test_failed">失败</string>
+    <string name="ai_test_latency">%1$d ms</string>
+    <string name="ai_error_title">分析失败</string>
+    <string name="ai_error_missing_api_key">缺少 API 密钥</string>
+    <string name="ai_error_connection_failed">连接失败</string>
+    <string name="ai_error_analysis_failed">分析请求失败</string>
+    <string name="ai_error_unparseable">模型返回了无法解析的结果，请重试。</string>
+    <string name="ai_streaming_status">AI 正在生成…</string>
+    <string name="ai_retrying_status">连接失败，正在重试…</string>
+
+    <string name="ai_advice_clothing">穿衣建议</string>
+    <string name="ai_advice_sun">防晒保暖</string>
+    <string name="ai_advice_outdoor">户外活动</string>
+    <string name="ai_advice_car_wash">洗车指数</string>
+    <string name="ai_advice_umbrella">带伞提醒</string>
+
+    <string name="ai_provider_gemini">Gemini</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_anthropic">Anthropic</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_zhipu">智谱 AI</string>
+    <string name="ai_provider_qwen">通义千问</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_custom">自定义</string>
+
+    <string name="action_export_card">导出截图</string>
+    <string name="card_updated">更新于 %1$s</string>
+    <string name="card_scan_hint">想看更详细的实时天气？扫一扫</string>
+    <string name="card_copyright">© 2026 Flame Software Project</string>
+    <string name="export_toast_failed">导出失败，请重试</string>
+    <string name="wx_clear_day">晴</string>
+    <string name="wx_clear_night">晴夜</string>
+    <string name="wx_partly_day">少云</string>
+    <string name="wx_partly_night">夜间少云</string>
+    <string name="wx_cloudy">多云</string>
+    <string name="wx_rain">雨</string>
+    <string name="wx_thunder">雷雨</string>
+    <string name="wx_snow">雪</string>
+    <string name="wx_sleet">雨夹雪</string>
+    <string name="wx_hail">冰雹</string>
+    <string name="wx_fog">雾</string>
+</resources>

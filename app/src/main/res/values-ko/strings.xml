@@ -1,0 +1,196 @@
+﻿<resources>
+    <!-- Application branding -->
+    <string name="app_name">불꽃 날씨</string>
+    <string name="app_desc">날씨 예보 및 데이터 서비스.</string>
+
+    <!-- Toolbar and navigation -->
+    <string name="search_hint">도시 검색</string>
+    <string name="locate_button">위치</string>
+    <string name="my_location">내 위치</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="nav_weather">날씨</string>
+    <string name="nav_ai">AI 스튜디오</string>
+    <string name="nav_settings">설정</string>
+
+    <!-- Weather metric labels -->
+    <string name="device_time">기기 시간</string>
+    <string name="local_time">현지 시간</string>
+    <string name="humidity">습도</string>
+    <string name="wind">풍속</string>
+    <string name="pressure">기압</string>
+    <string name="precipitation">강수량</string>
+    <string name="updated_at">%1$s에 업데이트됨</string>
+    <string name="export_screenshot">스크린샷 내보내기</string>
+
+    <!-- Forecast titles -->
+    <string name="forecast_hourly">24시간 예보</string>
+    <string name="forecast_daily">7일간 예보</string>
+    <string name="today">오늘</string>
+
+    <!-- Status and feedback -->
+    <string name="status_loading">날씨 정보를 불러오는 중…</string>
+    <string name="status_locating">위치 확인 중…</string>
+    <string name="status_fetch_failed">날씨 데이터를 불러올 수 없습니다. 다시 시도해 주세요.</string>
+    <string name="status_location_denied">위치 권한이 거부되었습니다.</string>
+    <string name="status_empty_search">일치하는 도시를 찾을 수 없습니다.</string>
+    <string name="retry">다시 시도</string>
+    <string name="status_no_weather_info">현재 날씨 정보를 불러올 수 없습니다. 네트워크 연결 상태를 확인하거나 위치 권한이 켜져 있는지 확인한 후 다시 시도해 주세요.</string>
+
+    <!-- Theme and appearance settings -->
+    <string name="settings_appearance">화면 및 테마</string>
+    <string name="settings_theme_mode">디자인 시스템</string>
+    <string name="settings_dark_mode">색상 모드</string>
+    <string name="mode_system">자동</string>
+    <string name="mode_light">라이트</string>
+    <string name="mode_dark">다크</string>
+    <string name="settings_pure_black">완전 블랙 (AMOLED Black)</string>
+    <string name="settings_palette">팔레트</string>
+    <string name="color_dynamic">동적 테마 (Material You)</string>
+    <string name="color_style_soft">부드럽게</string>
+    <string name="color_style_vivid">선명하게</string>
+    <string name="palette_lavender">라벤더</string>
+    <string name="palette_mint">민트</string>
+    <string name="palette_matcha">말차</string>
+    <string name="palette_marigold">마리골드</string>
+    <string name="palette_rose">로즈</string>
+    <string name="palette_custom">사용자 지정</string>
+
+    <!-- Language settings -->
+    <string name="settings_language">언어</string>
+    <string name="lang_system">자동</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh_hans">简体中文</string>
+    <string name="lang_zh_hant">繁體中文</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_ko">한국어</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_es">Español</string>
+
+    <!-- API endpoints configuration -->
+    <string name="settings_endpoints">API 엔드포인트</string>
+    <string name="endpoint_weather">날씨 서비스 엔드포인트</string>
+    <string name="endpoint_map_tile">지도 타일 템플릿</string>
+    <string name="endpoint_reset">기본값으로 재설정</string>
+    <string name="settings_endpoints_expand">수정 펼치기</string>
+    <string name="settings_endpoints_collapse">접기</string>
+
+    <!-- Interactive map -->
+    <string name="map_title">위성 날씨 지도</string>
+    <string name="map_tap_hint">탭하여 전체 화면으로 보기</string>
+    <string name="map_close">지도 닫기</string>
+
+    <!-- Acknowledgements and about -->
+    <string name="settings_about">정보 및 크레딧</string>
+    <string name="credits_gemini">특별히 감사드립니다: Google Gemini</string>
+    <string name="credits_ai_support">코드 지원에 Google Gemini, GLM, MiniMax에게 특별히 감사드립니다.</string>
+    <string name="credits_github">오픈소스 저장소</string>
+    <string name="credits_websites">공식 웹사이트</string>
+    <string name="check_updates">업데이트 확인</string>
+    <string name="update_available">새 버전 %1$s 사용 가능</string>
+    <string name="update_latest">최신 버전입니다</string>
+    <string name="update_none">아직 릴리스가 없습니다</string>
+    <string name="update_failed">확인에 실패했습니다. 나중에 다시 시도해 주세요</string>
+    <string name="about_privacy_statement">이 애플리케이션의 코드는 완전한 오픈소스입니다. 날씨 분석에 필요한 위치 정보만 수집하며 이를 저장하지 않음을 보장합니다. 원하는 경우 날씨 API를 직접 구성할 수도 있습니다.</string>
+    <string name="about_datasource_statement">기본 데이터 소스: MET Norway [weather.flameapis.com(api.met.no)]</string>
+    <string name="link_main_site">메인 사이트: flameproject.net</string>
+    <string name="link_web_app">웹 날씨 앱: flameproject.app/weather</string>
+    <string name="link_short_url">단축 링크: flpr.dev/wt</string>
+
+    <!-- AI feature labels -->
+    <string name="ai_section_title">AI 날씨 분석</string>
+    <string name="ai_run_analysis">분석 실행</string>
+    <string name="ai_running">분석 중…</string>
+    <string name="ai_disclaimer">AI가 생성한 콘텐츠입니다. 참고용으로만 사용하세요.</string>
+    <string name="ai_flame_service_notice">Flame 공식 AI 서비스는 웹(flpr.dev/wt)에서 이용할 수 있습니다.</string>
+    <string name="ai_privacy_guarantee">안심하세요: 이 모드에서는 요청이 선택한 제공업체의 공식 엔드포인트로 직접 전송됩니다. API 키는 절대 수집되지 않습니다.</string>
+    <string name="ai_base_url_hint">커스텀의 경우 필수, 그 외는 공식 URL 표시</string>
+    <string name="ai_model_hint">커스텀의 경우 필수, 그 외는 기본값 사용</string>
+    <string name="ai_test_connection">연결 테스트</string>
+
+    <!-- Dialog and common controls -->
+    <string name="label_location_format">위치: %1$s</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_apply">적용</string>
+    <string name="btn_close">닫기</string>
+    <string name="btn_confirm">확인</string>
+    <string name="dialog_custom_color">사용자 지정 색상 시드</string>
+
+    <!-- 3 Core API Category Titles -->
+    <string name="endpoint_weather_title">날씨 API</string>
+    <string name="endpoint_geocoding_title">지오코딩 API</string>
+    <string name="endpoint_map_tile_title">지도 타일 API</string>
+    <string name="endpoint_fallback_notice">사용자 지정 설정을 적용하면 기본 폴백 방식이 비활성화됩니다.</string>
+
+    <string name="color_red">빨강:</string>
+    <string name="color_green">초록:</string>
+    <string name="color_blue">파랑:</string>
+    <string name="url_template_hint">URL({key} 지원)</string>
+    <string name="url_zxy_hint">URL({z}/{x}/{y})</string>
+    <string name="default_geocoding_cascade">기본: 단계별 폴백</string>
+    <string name="default_map_cascade">기본: Google -> OSM -> Gaode</string>
+    <string name="preset_flame_default">Flame 기본값</string>
+    <string name="preset_met_norway">MET Norway</string>
+    <string name="preset_open_meteo">Open-Meteo</string>
+    <string name="preset_nominatim">Nominatim OSM</string>
+    <string name="preset_photon">Photon</string>
+    <string name="preset_google_sat">Google 위성</string>
+    <string name="preset_osm">OSM</string>
+    <string name="preset_gaode_sat">Gaode 위성</string>
+    <string name="preset_cartodb">CartoDB</string>
+    <string name="map_data">지도 데이터</string>
+    <string name="custom_api">사용자 지정 API</string>
+    <string name="btn_save_apply">저장 후 적용</string>
+    <string name="provider_google_maps">Google Maps</string>
+    <string name="provider_osm">OpenStreetMap</string>
+    <string name="provider_gaode">Gaode Maps (AutoNavi)</string>
+    <string name="label_user_agent">User-Agent</string>
+    <string name="label_api_key">API 키</string>
+    <string name="label_api_key_replace">API 키({key} 대체)</string>
+
+    <!-- AI provider and result labels -->
+    <string name="ai_label_provider">제공자</string>
+    <string name="ai_label_base_url">기본 URL</string>
+    <string name="ai_label_model">모델</string>
+    <string name="ai_test_failed">실패</string>
+    <string name="ai_test_latency">%1$d ms</string>
+    <string name="ai_error_title">분석 실패</string>
+    <string name="ai_error_missing_api_key">API 키가 없습니다</string>
+    <string name="ai_error_connection_failed">연결에 실패했습니다</string>
+    <string name="ai_error_analysis_failed">분석 요청에 실패했습니다</string>
+    <string name="ai_error_unparseable">모델이 읽을 수 없는 응답을 반환했습니다. 다시 시도해 주세요.</string>
+    <string name="ai_streaming_status">AI가 생성 중입니다…</string>
+    <string name="ai_retrying_status">연결에 실패했습니다. 재시도 중입니다…</string>
+
+    <string name="ai_advice_clothing">의상</string>
+    <string name="ai_advice_sun">햇빛과 온기</string>
+    <string name="ai_advice_outdoor">야외 활동</string>
+    <string name="ai_advice_car_wash">세차</string>
+    <string name="ai_advice_umbrella">우산</string>
+
+    <string name="ai_provider_gemini">Gemini</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_anthropic">Anthropic</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_zhipu">Zhipu AI</string>
+    <string name="ai_provider_qwen">Qwen</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_custom">사용자 지정</string>
+
+    <string name="action_export_card">스크린싷 내보내기</string>
+    <string name="card_updated">%1$s 업데이트</string>
+    <string name="card_scan_hint">더 자세한 실시간 날씨는 QR 코드로 확인</string>
+    <string name="card_copyright">© 2026 Flame Software Project</string>
+    <string name="export_toast_failed">내보내기에 실패했습니다. 다시 시도해 주세요</string>
+    <string name="wx_clear_day">맑음</string>
+    <string name="wx_clear_night">밤 맑음</string>
+    <string name="wx_partly_day">구름 조금</string>
+    <string name="wx_partly_night">밤 구름 조금</string>
+    <string name="wx_cloudy">흘림</string>
+    <string name="wx_rain">비</string>
+    <string name="wx_thunder">누우</string>
+    <string name="wx_snow">눈</string>
+    <string name="wx_sleet">진눈까비</string>
+    <string name="wx_hail">우박</string>
+    <string name="wx_fog">안개</string>
+</resources>

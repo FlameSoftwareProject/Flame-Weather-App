@@ -1,0 +1,196 @@
+﻿<resources>
+    <!-- Application branding -->
+    <string name="app_name">Flame Weather</string>
+    <string name="app_desc">Weather forecasting and data services.</string>
+
+    <!-- Toolbar and navigation -->
+    <string name="search_hint">Search a city</string>
+    <string name="locate_button">Locate</string>
+    <string name="my_location">My Location</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="nav_weather">Weather</string>
+    <string name="nav_ai">AI Studio</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Weather metric labels -->
+    <string name="device_time">Device Time</string>
+    <string name="local_time">Local Time</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="updated_at">Updated %1$s</string>
+    <string name="export_screenshot">Export Screenshot</string>
+
+    <!-- Forecast titles -->
+    <string name="forecast_hourly">24-Hour Forecast</string>
+    <string name="forecast_daily">7-Day Forecast</string>
+    <string name="today">Today</string>
+
+    <!-- Status and feedback -->
+    <string name="status_loading">Loading weather…</string>
+    <string name="status_locating">Locating…</string>
+    <string name="status_fetch_failed">Couldn\'t load weather data. Please try again.</string>
+    <string name="status_location_denied">Location permission was denied.</string>
+    <string name="status_empty_search">No matching city found.</string>
+    <string name="retry">Retry</string>
+    <string name="status_no_weather_info">Currently unable to retrieve weather information. Please check your network connection or ensure location permissions are granted, then try again.</string>
+
+    <!-- Theme and appearance settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_mode">Theme System</string>
+    <string name="settings_dark_mode">Color Scheme</string>
+    <string name="mode_system">Auto</string>
+    <string name="mode_light">Light</string>
+    <string name="mode_dark">Dark</string>
+    <string name="settings_pure_black">Pure Black (AMOLED)</string>
+    <string name="settings_palette">Palette</string>
+    <string name="color_dynamic">Dynamic (Material You)</string>
+    <string name="color_style_soft">Soft</string>
+    <string name="color_style_vivid">Vivid</string>
+    <string name="palette_lavender">Lavender</string>
+    <string name="palette_mint">Mint</string>
+    <string name="palette_matcha">Matcha</string>
+    <string name="palette_marigold">Marigold</string>
+    <string name="palette_rose">Rose</string>
+    <string name="palette_custom">Custom</string>
+
+    <!-- Language settings -->
+    <string name="settings_language">Language</string>
+    <string name="lang_system">Auto</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh_hans">简体中文</string>
+    <string name="lang_zh_hant">繁體中文</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_ko">한국어</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_es">Español</string>
+
+    <!-- API endpoints configuration -->
+    <string name="settings_endpoints">API Endpoints</string>
+    <string name="endpoint_weather">Weather Endpoint</string>
+    <string name="endpoint_map_tile">Map Tile URL Template</string>
+    <string name="endpoint_reset">Reset to Default</string>
+    <string name="settings_endpoints_expand">Modify</string>
+    <string name="settings_endpoints_collapse">Collapse</string>
+
+    <!-- Interactive map -->
+    <string name="map_title">Satellite &amp; Radar Map</string>
+    <string name="map_tap_hint">Tap to expand full screen</string>
+    <string name="map_close">Close Map</string>
+
+    <!-- Acknowledgements and about -->
+    <string name="settings_about">About &amp; Credits</string>
+    <string name="credits_gemini">Special Thanks: Google Gemini</string>
+    <string name="credits_ai_support">Special thanks to Google Gemini, GLM, and MiniMax for providing code support.</string>
+    <string name="credits_github">Open Source Repository</string>
+    <string name="credits_websites">Official Websites</string>
+    <string name="check_updates">Check for Updates</string>
+    <string name="update_available">New version %1$s available</string>
+    <string name="update_latest">You are on the latest version</string>
+    <string name="update_none">No release published yet</string>
+    <string name="update_failed">Check failed. Please try again later</string>
+    <string name="about_privacy_statement">This application is fully open source. We only collect necessary location data for weather analysis and guarantee it will not be retained. You can also customize your own weather API.</string>
+    <string name="about_datasource_statement">Default data source: MET Norway [weather.flameapis.com(api.met.no)]</string>
+    <string name="link_main_site">Main Site: flameproject.net</string>
+    <string name="link_web_app">Web Weather App: flameproject.app/weather</string>
+    <string name="link_short_url">Short Link: flpr.dev/wt</string>
+
+    <!-- AI feature labels -->
+    <string name="ai_section_title">AI Weather Analysis</string>
+    <string name="ai_run_analysis">Analyze</string>
+    <string name="ai_running">Analyzing…</string>
+    <string name="ai_disclaimer">AI-generated content. For reference only.</string>
+    <string name="ai_flame_service_notice">Flame cloud AI is accessible via web at flpr.dev/wt</string>
+    <string name="ai_privacy_guarantee">Rest assured: with this mode, your requests are sent directly to the official endpoint of the provider you choose. We promise we never collect your API key.</string>
+    <string name="ai_base_url_hint">Required for Custom; others show official URL</string>
+    <string name="ai_model_hint">Required for Custom; others use default</string>
+    <string name="ai_test_connection">Test connection</string>
+
+    <!-- Dialog and common controls -->
+    <string name="label_location_format">Location: %1$s</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="dialog_custom_color">Custom Palette Seed</string>
+
+    <!-- 3 Core API Category Titles -->
+    <string name="endpoint_weather_title">Weather API</string>
+    <string name="endpoint_geocoding_title">Geocoding API</string>
+    <string name="endpoint_map_tile_title">Map Tile API</string>
+    <string name="endpoint_fallback_notice">Custom configuration will disable default fallback mechanisms.</string>
+
+    <string name="color_red">Red:</string>
+    <string name="color_green">Green:</string>
+    <string name="color_blue">Blue:</string>
+    <string name="url_template_hint">URL (Supports {key})</string>
+    <string name="url_zxy_hint">URL ({z}/{x}/{y})</string>
+    <string name="default_geocoding_cascade">Default: Cascading Fallbacks</string>
+    <string name="default_map_cascade">Default: Google -> OSM -> Gaode</string>
+    <string name="preset_flame_default">Flame Default</string>
+    <string name="preset_met_norway">MET Norway</string>
+    <string name="preset_open_meteo">Open-Meteo</string>
+    <string name="preset_nominatim">Nominatim OSM</string>
+    <string name="preset_photon">Photon</string>
+    <string name="preset_google_sat">Google Sat</string>
+    <string name="preset_osm">OSM</string>
+    <string name="preset_gaode_sat">Gaode Sat</string>
+    <string name="preset_cartodb">CartoDB</string>
+    <string name="map_data">Map Data</string>
+    <string name="custom_api">Custom API</string>
+    <string name="btn_save_apply">Save &amp; Apply</string>
+    <string name="provider_google_maps">Google Maps</string>
+    <string name="provider_osm">OpenStreetMap</string>
+    <string name="provider_gaode">Gaode Maps (AutoNavi)</string>
+    <string name="label_user_agent">User-Agent</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_api_key_replace">API Key (Replaces {key})</string>
+
+    <!-- AI provider and result labels -->
+    <string name="ai_label_provider">PROVIDER</string>
+    <string name="ai_label_base_url">BASE URL</string>
+    <string name="ai_label_model">MODEL</string>
+    <string name="ai_test_failed">Failed</string>
+    <string name="ai_test_latency">%1$d ms</string>
+    <string name="ai_error_title">Analysis failed</string>
+    <string name="ai_error_missing_api_key">API key is missing</string>
+    <string name="ai_error_connection_failed">Connection failed</string>
+    <string name="ai_error_analysis_failed">Analysis request failed</string>
+    <string name="ai_error_unparseable">The model returned an unreadable answer. Please try again.</string>
+    <string name="ai_streaming_status">AI is generating…</string>
+    <string name="ai_retrying_status">Connection failed, retrying…</string>
+
+    <string name="ai_advice_clothing">Clothing</string>
+    <string name="ai_advice_sun">Sun &amp; Warmth</string>
+    <string name="ai_advice_outdoor">Outdoors</string>
+    <string name="ai_advice_car_wash">Car Wash</string>
+    <string name="ai_advice_umbrella">Umbrella</string>
+
+    <string name="ai_provider_gemini">Gemini</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_anthropic">Anthropic</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_zhipu">Zhipu AI</string>
+    <string name="ai_provider_qwen">Qwen</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_custom">Custom</string>
+
+    <string name="action_export_card">Export card</string>
+    <string name="card_updated">Updated %1$s</string>
+    <string name="card_scan_hint">Want more detailed live weather? Scan the QR code</string>
+    <string name="card_copyright">© 2026 Flame Software Project</string>
+    <string name="export_toast_failed">Export failed, please try again</string>
+    <string name="wx_clear_day">Clear</string>
+    <string name="wx_clear_night">Clear night</string>
+    <string name="wx_partly_day">Partly cloudy</string>
+    <string name="wx_partly_night">Cloudy intervals at night</string>
+    <string name="wx_cloudy">Cloudy</string>
+    <string name="wx_rain">Rain</string>
+    <string name="wx_thunder">Thunderstorm</string>
+    <string name="wx_snow">Snow</string>
+    <string name="wx_sleet">Sleet</string>
+    <string name="wx_hail">Hail</string>
+    <string name="wx_fog">Fog</string>
+</resources>
