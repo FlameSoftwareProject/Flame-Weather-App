@@ -5,6 +5,15 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
+import com.android.build.gradle.internal.api.BaseVariantOutputImpl
+import java.util.Properties
+
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.inputStream().use { keystoreProperties.load(it) }
+}
+
 android {
     namespace = "app.flameproject.weather"
     compileSdk = 35
@@ -22,6 +31,17 @@ android {
         }
     }
 
+    if (keystorePropertiesFile.exists()) {
+        signingConfigs {
+            create("flameweather") {
+                storeFile = rootProject.file(keystoreProperties.getProperty("storeFile"))
+                storePassword = keystoreProperties.getProperty("storePassword")
+                keyAlias = keystoreProperties.getProperty("keyAlias")
+                keyPassword = keystoreProperties.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -29,6 +49,28 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            if (keystorePropertiesFile.exists()) signingConfig = signingConfigs.getByName("flameweather")
+        }
+    }
+
+    splits {
+        abi {
+            isEnable = true
+            reset()
+            include("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
+            isUniversalApk = false
+        }
+    }
+
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+    }
+
+    applicationVariants.all {
+        outputs.all {
+            val abi = (this as BaseVariantOutputImpl).filters.firstOrNull()?.identifier
+            if (abi != null) outputFileName = "FlameWeather-v$versionName-$abi.apk"
         }
     }
 
