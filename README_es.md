@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-Dentro de la app, las novedades aparecen en **Acerca de → Buscar actualizaciones** (usando la API de GitHub Releases, sin servicios externos). Si todavía no hay ninguna versión publicada, la primera está en camino.
+Dentro de la app, las novedades aparecen en **Acerca de → Buscar actualizaciones** (usando la API de GitHub Releases, sin servicios externos).
 
 ¿Prefieres probarlo en el navegador? La **[versión web oficial](https://flameproject.app/weather)** es completa y no requiere instalación.
 
