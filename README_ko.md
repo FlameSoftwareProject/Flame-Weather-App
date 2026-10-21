@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-앱 안에서는 **정보 → 업데이트 확인**으로 업데이트 알림을 받을 수 있습니다(GitHub Releases API를 직접 사용하며 외부 서비스를 거치지 않습니다). 아직 릴리스가 없다면 첫 버전을 준비 중입니다.
+앱 안에서는 **정보 → 업데이트 확인**으로 업데이트 알림을 받을 수 있습니다(GitHub Releases API를 직접 사용하며 외부 서비스를 거치지 않습니다).
 
 먼저 브라우저에서 써보고 싶다면? 공식 **[웹 버전](https://flameproject.app/weather)**은 설치 없이 모든 기능을 쓸 수 있습니다.
 
