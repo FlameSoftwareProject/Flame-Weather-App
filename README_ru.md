@@ -27,7 +27,7 @@
 
 [<img src="./assets/badges/get-it-on-github.svg" alt="Get it on GitHub Release" width="200">](https://github.com/FlameSoftwareProject/Flame-Weather-App/releases)
 
-Внутри приложения новые версии видны в **О приложении → Проверить обновления** (напрямую через GitHub Releases API, без внешних сервисов). Если релизов пока нет — первый уже готовится.
+Внутри приложения новые версии видны в **О приложении → Проверить обновления** (напрямую через GitHub Releases API, без внешних сервисов).
 
 Хотите сначала попробовать в браузере? Официальная **[веб-версия](https://flameproject.app/weather)** — со всеми функциями и без установки.
 
